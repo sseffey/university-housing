@@ -6,6 +6,7 @@ import authRoutes from "./routes/authRoutes.js";
 import studentRoutes from "./routes/studentRoutes.js";
 
 const app = express();
+app.use(express.json());
 
 dotenv.config();
 
